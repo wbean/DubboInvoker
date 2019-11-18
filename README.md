@@ -1,5 +1,6 @@
 # DubboInvoker
 a IntelliJ IDEA plugin invoke dubbo service by socket
+https://plugins.jetbrains.com/plugin/11981-dubboinvoker/
 
 * a develop tool help test dubbo service.
 * call dubbo service with several click.
