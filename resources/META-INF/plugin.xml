@@ -1,0 +1,62 @@
+<idea-plugin>
+  <id>me.wbean.plugin.dubbo.invoker</id>
+  <name>DubboInvoker</name>
+  <version>1.0</version>
+  <vendor email="wbean1990@gmail.com" url="http://www.wbean.me">wbean</vendor>
+
+  <description><![CDATA[
+      a develop tool help test dubbo service.<br/>
+      call dubbo service with several click.<br/>
+      auto generate param value according param type.<br/>
+      support user define param value in doc comment.<br/>
+      <br/><br/>
+       usage:
+       step1: right click on dubbo service method <br/>
+       step2: click DubboInvoker <br/>
+       step3: check auto generate param value <br/>
+       step4: click invoke button<br>
+       <br>
+       user define param value example:
+       <pre>
+    /**
+     *
+     * @param a id
+     *          example=asdfasdf
+     * @param b 商户号
+     *          example=123
+     * @param exportParam realParam
+     *                    example={"billDate":20190101}
+     */
+    void getData(String a, int b, ExportParam exportParam);
+       </pre>
+       <br>
+       1. new line for example
+       2. start with token "example="
+    ]]></description>
+
+  <change-notes><![CDATA[
+      1.0 RELEASE<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="DubboInvoker.frameOpen" class="me.wbean.plugin.dubbo.invoker.DubboInvokerFrameOpen" text="DubboInvoker" description="DubboInvokerFrameOpen" popup="true">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
