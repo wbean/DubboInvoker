@@ -37,6 +37,6 @@ under project tag.
 # RELEASE LOG
 
 1.1-RELEASE
-add enum support
-add address config 
-add dubbo telnet param 'class' attribute support
+1. add enum support
+2. add address config 
+3. add dubbo telnet param 'class' attribute support
