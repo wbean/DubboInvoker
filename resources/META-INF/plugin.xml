@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>me.wbean.plugin.dubbo.invoker</id>
   <name>DubboInvoker</name>
-  <version>1.0</version>
+  <version>1.1</version>
   <vendor email="wbean1990@gmail.com" url="http://www.wbean.me">wbean</vendor>
 
   <description><![CDATA[
@@ -35,7 +35,12 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      1.0 RELEASE<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      1.1 RELEASE
+          1. add enum support
+          2. add address config support
+          3. add dubbo telnet param 'class' attribute support
+      1.0 RELEASE
+          1. init
     ]]>
   </change-notes>
 
