@@ -1,14 +1,17 @@
 <idea-plugin>
   <id>me.wbean.plugin.dubbo.invoker</id>
   <name>DubboInvoker</name>
-  <version>1.1</version>
-  <vendor email="wbean1990@gmail.com" url="http://www.wbean.me">wbean</vendor>
+  <version>1.1.1</version>
+  <vendor email="wbean1990@gmail.com" url="https://github.com/wbean/">wbean</vendor>
 
   <description><![CDATA[
       a develop tool help test dubbo service.<br/>
       call dubbo service with several click.<br/>
       auto generate param value according param type.<br/>
       support user define param value in doc comment.<br/>
+
+      document: <a href="https://github.com/wbean/DubboInvoker">https://github.com/wbean/DubboInvoker</a>
+
       <br/><br/>
        usage:
        step1: right click on dubbo service method <br/>
